@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>toast demo</title>
+    <link rel="stylesheet" href="http://travisup.com/public/default/css/reset.css" />
+    <link rel="stylesheet" href="css/jquery.toast.css" />
+</head>
+<body>
+    <input type="text" name="msg" id="msg" value="test message" />
+    <a href="javascript:void(0);" id="showmsg">toast</a>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.toast.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#showmsg').click(function() {
+                // get info
+                var msg = $('#msg').val();
+                $.toast(msg);
+            });
+        });
+    </script>
+</body>
+</html>
