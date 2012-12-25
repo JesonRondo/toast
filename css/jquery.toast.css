@@ -1,6 +1,7 @@
 .toast_box {
     border: 1px #ccc solid;
     position: fixed;
+    _position: absolute;
     font: normal 12px/24px 'SimSun';
     background: #fff;
     background: rgba(255, 255, 255, .9);
