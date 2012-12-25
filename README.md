@@ -1,7 +1,7 @@
 toast
 =====
 
-toast plugin
+toast plugin with jQuery
 
 ###call method
 
