@@ -3,6 +3,6 @@ toast
 
 toast plugin
 
-call method
+###call method
 
     $.toast('message');
